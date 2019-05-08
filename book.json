@@ -1,0 +1,13 @@
+{
+	"title": "代码规范文档",
+	"author": "",
+	
+	"plugins": [
+		"-search"
+	],
+    "pluginsConfig": {
+    	"theme-default": {
+            "showLevel": true
+        }
+    }
+}

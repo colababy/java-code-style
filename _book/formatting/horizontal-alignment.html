@@ -1,0 +1,1338 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>水平对齐：不做要求 | 代码规范文档</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.9">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../formatting/grouping-parentheses.html" />
+    
+    
+    <link rel="prev" href="../formatting/horizontal-whitespace.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="4.6.3"
+        data-chapter-title="水平对齐：不做要求"
+        data-filepath="formatting/horizontal-alignment.md"
+        data-basepath=".."
+        data-revision="Wed May 08 2019 15:10:49 GMT+0800 (CST)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        说明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="introduction/index.html">
+            
+                
+                    <a href="../introduction/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        前言
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.1" data-path="introduction/terminology.html">
+            
+                
+                    <a href="../introduction/terminology.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.1.</b>
+                        
+                        术语说明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="introduction/guide-notes.html">
+            
+                
+                    <a href="../introduction/guide-notes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.2.</b>
+                        
+                        指南说明
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="source-file-basics/index.html">
+            
+                
+                    <a href="../source-file-basics/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        源文件基础
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="source-file-basics/file-name.html">
+            
+                
+                    <a href="../source-file-basics/file-name.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        文件名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="source-file-basics/file-encoding.html">
+            
+                
+                    <a href="../source-file-basics/file-encoding.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        文件编码：UTF-8
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="source-file-basics/special-characters.html">
+            
+                
+                    <a href="../source-file-basics/special-characters.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        特殊字符
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.3.1" data-path="source-file-basics/whitespace-characters.html">
+            
+                
+                    <a href="../source-file-basics/whitespace-characters.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.1.</b>
+                        
+                        空白字符
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.2" data-path="source-file-basics/special-escape-sequences.html">
+            
+                
+                    <a href="../source-file-basics/special-escape-sequences.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.2.</b>
+                        
+                        特殊转义序列
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3.3" data-path="source-file-basics/non-ascii-characters.html">
+            
+                
+                    <a href="../source-file-basics/non-ascii-characters.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.3.</b>
+                        
+                        非ASCII字符
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="source-file-structure/index.html">
+            
+                
+                    <a href="../source-file-structure/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        源文件结构
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="source-file-structure/copyright-statement.html">
+            
+                
+                    <a href="../source-file-structure/copyright-statement.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        许可证或版权信息
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="source-file-structure/package-statement.html">
+            
+                
+                    <a href="../source-file-structure/package-statement.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        package语句
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="source-file-structure/import-statements.html">
+            
+                
+                    <a href="../source-file-structure/import-statements.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        import语句
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.3.1" data-path="source-file-structure/wildcard-imports.html">
+            
+                
+                    <a href="../source-file-structure/wildcard-imports.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.1.</b>
+                        
+                        import不要使用通配符
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.2" data-path="source-file-structure/import-line-wrapping.html">
+            
+                
+                    <a href="../source-file-structure/import-line-wrapping.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.2.</b>
+                        
+                        不要换行
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3.3" data-path="source-file-structure/import-ordering-and-spacing.html">
+            
+                
+                    <a href="../source-file-structure/import-ordering-and-spacing.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.3.</b>
+                        
+                        顺序和间距
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="source-file-structure/class-declaration.html">
+            
+                
+                    <a href="../source-file-structure/class-declaration.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        类声明
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.4.1" data-path="source-file-structure/one-top-level-class.html">
+            
+                
+                    <a href="../source-file-structure/one-top-level-class.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.1.</b>
+                        
+                        只有一个顶级类声明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4.2" data-path="source-file-structure/class-member-ordering.html">
+            
+                
+                    <a href="../source-file-structure/class-member-ordering.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.2.</b>
+                        
+                        类成员顺序
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="formatting/index.html">
+            
+                
+                    <a href="../formatting/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        格式
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="formatting/braces.html">
+            
+                
+                    <a href="../formatting/braces.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        大括号
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="formatting/braces-always-used.html">
+            
+                
+                    <a href="../formatting/braces-always-used.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.1.</b>
+                        
+                        使用大括号(即使是可选的)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="formatting/blocks-k-r-style.html">
+            
+                
+                    <a href="../formatting/blocks-k-r-style.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.2.</b>
+                        
+                        非空块：K &amp; R 风格
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="formatting/braces-empty-blocks.html">
+            
+                
+                    <a href="../formatting/braces-empty-blocks.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.3.</b>
+                        
+                        空块：可以用简洁版本
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="formatting/block-indentation.html">
+            
+                
+                    <a href="../formatting/block-indentation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        块缩进：2个空格
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="formatting/one-statement-per-line.html">
+            
+                
+                    <a href="../formatting/one-statement-per-line.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        一行一个语句
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.4" data-path="formatting/column-limit.html">
+            
+                
+                    <a href="../formatting/column-limit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.4.</b>
+                        
+                        列限制：80或100
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5" data-path="formatting/line-wrapping.html">
+            
+                
+                    <a href="../formatting/line-wrapping.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.</b>
+                        
+                        自动换行
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.5.1" data-path="formatting/line-wrapping-where-to-break.html">
+            
+                
+                    <a href="../formatting/line-wrapping-where-to-break.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.1.</b>
+                        
+                        从哪里断开
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.5.2" data-path="formatting/line-wrapping-indent.html">
+            
+                
+                    <a href="../formatting/line-wrapping-indent.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.5.2.</b>
+                        
+                        自动换行时缩进至少+4个空格
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6" data-path="formatting/whitespace.html">
+            
+                
+                    <a href="../formatting/whitespace.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.</b>
+                        
+                        空白
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.6.1" data-path="formatting/vertical-whitespace.html">
+            
+                
+                    <a href="../formatting/vertical-whitespace.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.1.</b>
+                        
+                        垂直空白
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.6.2" data-path="formatting/horizontal-whitespace.html">
+            
+                
+                    <a href="../formatting/horizontal-whitespace.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.2.</b>
+                        
+                        水平空白
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.6.3" data-path="formatting/horizontal-alignment.html">
+            
+                
+                    <a href="../formatting/horizontal-alignment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.6.3.</b>
+                        
+                        水平对齐：不做要求
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.7" data-path="formatting/grouping-parentheses.html">
+            
+                
+                    <a href="../formatting/grouping-parentheses.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.7.</b>
+                        
+                        用小括号来限定组：推荐
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8" data-path="formatting/specific-constructs.html">
+            
+                
+                    <a href="../formatting/specific-constructs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.</b>
+                        
+                        枚举类
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.8.1" data-path="formatting/enum-classes.html">
+            
+                
+                    <a href="../formatting/enum-classes.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.1.</b>
+                        
+                        枚举类
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.2" data-path="formatting/variable-declarations.html">
+            
+                
+                    <a href="../formatting/variable-declarations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.2.</b>
+                        
+                        变量声明
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.3" data-path="formatting/arrays.html">
+            
+                
+                    <a href="../formatting/arrays.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.3.</b>
+                        
+                        数组
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.4" data-path="formatting/switch.html">
+            
+                
+                    <a href="../formatting/switch.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.4.</b>
+                        
+                        switch语句
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.5" data-path="formatting/annotations.html">
+            
+                
+                    <a href="../formatting/annotations.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.5.</b>
+                        
+                        注解(Annotations)
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.6" data-path="formatting/comments.html">
+            
+                
+                    <a href="../formatting/comments.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.6.</b>
+                        
+                        注释
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.8.7" data-path="formatting/modifiers.html">
+            
+                
+                    <a href="../formatting/modifiers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.8.7.</b>
+                        
+                        Modifiers
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="naming/index.html">
+            
+                
+                    <a href="../naming/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        命名
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1" data-path="naming/identifier-names.html">
+            
+                
+                    <a href="../naming/identifier-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.1.</b>
+                        
+                        对所有标识符都通用的规则
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="naming/specific-identifier-names.html">
+            
+                
+                    <a href="../naming/specific-identifier-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.</b>
+                        
+                        标识符类型的规则
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.2.1" data-path="naming/package-names.html">
+            
+                
+                    <a href="../naming/package-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.1.</b>
+                        
+                        包名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.2" data-path="naming/class-names.html">
+            
+                
+                    <a href="../naming/class-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.2.</b>
+                        
+                        类名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.3" data-path="naming/method-names.html">
+            
+                
+                    <a href="../naming/method-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.3.</b>
+                        
+                        方法名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.4" data-path="naming/constant-names.html">
+            
+                
+                    <a href="../naming/constant-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.4.</b>
+                        
+                        常量名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.5" data-path="naming/non-constant-field-names.html">
+            
+                
+                    <a href="../naming/non-constant-field-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.5.</b>
+                        
+                        非常量字段名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.6" data-path="naming/parameter-names.html">
+            
+                
+                    <a href="../naming/parameter-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.6.</b>
+                        
+                        参数名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.7" data-path="naming/local-variable-names.html">
+            
+                
+                    <a href="../naming/local-variable-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.7.</b>
+                        
+                        局部变量名
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2.8" data-path="naming/type-variable-names.html">
+            
+                
+                    <a href="../naming/type-variable-names.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.2.8.</b>
+                        
+                        类型变量名
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="naming/camel-case.html">
+            
+                
+                    <a href="../naming/camel-case.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.3.</b>
+                        
+                        驼峰式命名法(CamelCase)
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="programming-practices/index.html">
+            
+                
+                    <a href="../programming-practices/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        编程实践
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1" data-path="programming-practices/override-annotation.html">
+            
+                
+                    <a href="../programming-practices/override-annotation.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.1.</b>
+                        
+                        @Override：能用则用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="programming-practices/caught-exceptions.html">
+            
+                
+                    <a href="../programming-practices/caught-exceptions.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.2.</b>
+                        
+                        捕获的异常：不能忽视
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="programming-practices/static-members.html">
+            
+                
+                    <a href="../programming-practices/static-members.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.3.</b>
+                        
+                        静态成员：使用类进行调用
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="programming-practices/finalizers.html">
+            
+                
+                    <a href="../programming-practices/finalizers.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.4.</b>
+                        
+                        Finalizers: 禁用
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="javadoc/index.html">
+            
+                
+                    <a href="../javadoc/index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        Javadoc
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1" data-path="javadoc/javadoc-formatting.html">
+            
+                
+                    <a href="../javadoc/javadoc-formatting.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.</b>
+                        
+                        格式
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="javadoc/javadoc-multi-line.html">
+            
+                
+                    <a href="../javadoc/javadoc-multi-line.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.1.</b>
+                        
+                        一般形式
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="javadoc/javadoc-paragraphs.html">
+            
+                
+                    <a href="../javadoc/javadoc-paragraphs.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.2.</b>
+                        
+                        段落
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.3" data-path="javadoc/javadoc-at-clauses.html">
+            
+                
+                    <a href="../javadoc/javadoc-at-clauses.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.1.3.</b>
+                        
+                        Javadoc标记
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="javadoc/summary-fragment.html">
+            
+                
+                    <a href="../javadoc/summary-fragment.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.2.</b>
+                        
+                        摘要片段
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="javadoc/javadoc-where-required.html">
+            
+                
+                    <a href="../javadoc/javadoc-where-required.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.</b>
+                        
+                        哪里需要使用Javadoc
+                    </a>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.3.1" data-path="javadoc/javadoc-exception-self-explanatory.html">
+            
+                
+                    <a href="../javadoc/javadoc-exception-self-explanatory.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.1.</b>
+                        
+                        例外：不言自明的方法
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.2" data-path="javadoc/javadoc-exception-overrides.html">
+            
+                
+                    <a href="../javadoc/javadoc-exception-overrides.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.2.</b>
+                        
+                        例外：重载
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3.3" data-path="javadoc/javadoc-optional.html">
+            
+                
+                    <a href="../javadoc/javadoc-optional.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.3.3.</b>
+                        
+                        可选的Javadoc
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >代码规范文档</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h4 id="463-&#x6C34;&#x5E73;&#x5BF9;&#x9F50;&#xFF1A;&#x4E0D;&#x505A;&#x8981;&#x6C42;">4.6.3 &#x6C34;&#x5E73;&#x5BF9;&#x9F50;&#xFF1A;&#x4E0D;&#x505A;&#x8981;&#x6C42;</h4>
+<p><strong>&#x672F;&#x8BED;&#x8BF4;&#x660E;</strong>&#xFF1A;&#x6C34;&#x5E73;&#x5BF9;&#x9F50;&#x6307;&#x7684;&#x662F;&#x901A;&#x8FC7;&#x589E;&#x52A0;&#x53EF;&#x53D8;&#x6570;&#x91CF;&#x7684;&#x7A7A;&#x683C;&#x6765;&#x4F7F;&#x67D0;&#x4E00;&#x884C;&#x7684;&#x5B57;&#x7B26;&#x4E0E;&#x4E0A;&#x4E00;&#x884C;&#x7684;&#x76F8;&#x5E94;&#x5B57;&#x7B26;&#x5BF9;&#x9F50;&#x3002;</p>
+<p>&#x8FD9;&#x662F;&#x5141;&#x8BB8;&#x7684;(&#x800C;&#x4E14;&#x5728;&#x4E0D;&#x5C11;&#x5730;&#x65B9;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x8FD9;&#x6837;&#x7684;&#x4EE3;&#x7801;)&#xFF0C;&#x4F46;Google&#x7F16;&#x7A0B;&#x98CE;&#x683C;&#x5BF9;&#x6B64;&#x4E0D;&#x505A;&#x8981;&#x6C42;&#x3002;&#x5373;&#x4F7F;&#x5BF9;&#x4E8E;&#x5DF2;&#x7ECF;&#x4F7F;&#x7528;&#x6C34;&#x5E73;&#x5BF9;&#x9F50;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x4E0D;&#x9700;&#x8981;&#x53BB;&#x4FDD;&#x6301;&#x8FD9;&#x79CD;&#x98CE;&#x683C;&#x3002;</p>
+<p>&#x4EE5;&#x4E0B;&#x793A;&#x4F8B;&#x5148;&#x5C55;&#x793A;&#x672A;&#x5BF9;&#x9F50;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x7136;&#x540E;&#x662F;&#x5BF9;&#x9F50;&#x7684;&#x4EE3;&#x7801;&#xFF1A;</p>
+<pre><code>private int x; // this is fine
+private Color color; // this too
+
+private int   x;      // permitted, but future edits
+private Color color;  // may leave it unaligned
+</code></pre><blockquote>
+<blockquote>
+<p>Tip&#xFF1A;&#x5BF9;&#x9F50;&#x53EF;&#x589E;&#x52A0;&#x4EE3;&#x7801;&#x53EF;&#x8BFB;&#x6027;&#xFF0C;&#x4F46;&#x5B83;&#x4E3A;&#x65E5;&#x540E;&#x7684;&#x7EF4;&#x62A4;&#x5E26;&#x6765;&#x95EE;&#x9898;&#x3002;&#x8003;&#x8651;&#x672A;&#x6765;&#x67D0;&#x4E2A;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4FEE;&#x6539;&#x4E00;&#x5806;&#x5BF9;&#x9F50;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x7684;&#x4E00;&#x884C;&#x3002; &#x8FD9;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x539F;&#x672C;&#x5F88;&#x6F02;&#x4EAE;&#x7684;&#x5BF9;&#x9F50;&#x4EE3;&#x7801;&#x53D8;&#x5F97;&#x9519;&#x4F4D;&#x3002;&#x5F88;&#x53EF;&#x80FD;&#x5B83;&#x4F1A;&#x63D0;&#x793A;&#x4F60;&#x8C03;&#x6574;&#x5468;&#x56F4;&#x4EE3;&#x7801;&#x7684;&#x7A7A;&#x767D;&#x6765;&#x4F7F;&#x8FD9;&#x4E00;&#x5806;&#x4EE3;&#x7801;&#x91CD;&#x65B0;&#x6C34;&#x5E73;&#x5BF9;&#x9F50;(&#x6BD4;&#x5982;&#x7A0B;&#x5E8F;&#x5458;&#x60F3;&#x4FDD;&#x6301;&#x8FD9;&#x79CD;&#x6C34;&#x5E73;&#x5BF9;&#x9F50;&#x7684;&#x98CE;&#x683C;)&#xFF0C; &#x8FD9;&#x5C31;&#x4F1A;&#x8BA9;&#x4F60;&#x505A;&#x8BB8;&#x591A;&#x7684;&#x65E0;&#x7528;&#x529F;&#xFF0C;&#x589E;&#x52A0;&#x4E86;reviewer&#x7684;&#x5DE5;&#x4F5C;&#x5E76;&#x4E14;&#x53EF;&#x80FD;&#x5BFC;&#x81F4;&#x66F4;&#x591A;&#x7684;&#x5408;&#x5E76;&#x51B2;&#x7A81;&#x3002;</p>
+</blockquote>
+</blockquote>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../formatting/horizontal-whitespace.html" class="navigation navigation-prev " aria-label="Previous page: 水平空白"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../formatting/grouping-parentheses.html" class="navigation navigation-next " aria-label="Next page: 用小括号来限定组：推荐"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"theme-default":{"showLevel":true},"highlight":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
